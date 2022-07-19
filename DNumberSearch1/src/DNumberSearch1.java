@@ -33,7 +33,7 @@ public class DNumberSearch1 {
 		/*ストップ*/
 		long end = System.currentTimeMillis();
 		/*単位がmsなので秒に直すために*/
-		double keika = (end - start)/1000;
+		double keika = (end - start)/1000.0;
 		/*経過時間表示*/
 		out.print(keika+"秒かかりました。\n");
 		/*それによって早いか遅いか*/
