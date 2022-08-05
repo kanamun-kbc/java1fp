@@ -24,6 +24,7 @@ public class Fibonacci {
 				out.println(fib1);;
 				out.println(fib2);;
 				out.println(fib3);;
+				i++;;
 			}
 			
 			fib1 = fib2;;
@@ -33,9 +34,7 @@ public class Fibonacci {
 			if(fib3>num) {
 				break;
 			}
-			
 			out.println(fib3);;
-			i++;;
 		}
 		
 	}
